@@ -1,70 +1,71 @@
-# Floid-HTML
+# Floid - HTML
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-## Available Scripts
+Here's why:
 
-In the project directory, you can run:
+- Your time should be focused on creating something amazing. A project that solves a problem and helps others
+- You shouldn't be doing the same tasks over and over like creating a README from scratch
+- You should implement DRY principles to the rest of your life :smile:
 
-### `npm start`
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks You!
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech stack & Libraries/Versions.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I've to create the template using the following libraries and versions that are given below (and that all I've using the CDN files):-
 
-### `npm test`
+- Bootstrap-5.2.2
+- Font Awesome-5.10.0
+- slick-carousel-1.8.1
+- parallax.js-3.1.0
+- jquery-3.6.1
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+And also I've used the SASS/SCSS Structure for the template or its Variables. So you see my structure for better understand.
 
-### `npm run build`
+Simple Structure
+If you’re using Sass on a small project, for example - a single web page. A very minimal structure could be as follows:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+* _components.scss
+* _layout.scss
+* _pages.scss
+* styles.scss
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Here we have 3 partials connecting up to our styles.scss.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Components: anything reusable such as variables, typography, buttons, animations, fonts, radio buttons, dropdownlists etc.
 
-### `npm run eject`
+Layout: contains all the CSS that handles the layout, such as the header and any custo sliders systems.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Pages: contained within this file are all your pages details.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Main: it should ONLY contain the imports for the above files.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Project setup guidelines
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Git clone or download the project files.
+2. To start a local server and watch for files & changes.
+3. Have fun developing!
 
-## Learn More
+### What I liked
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- I liked the project design.
+- Color Combinations.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What I didn’t like
 
-### Code Splitting
+- I didn't like buttons design.
+- Maximum 1-2 fonts you can use, don't use more than 2 fonts used for this
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Where I faced issues
 
-### Analyzing the Bundle Size
+- To add the positions of images in the parallax section..
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Estimated time
 
-### Making a Progressive Web App
+I took 48 hours for this because I took more time in to set the parallax design in the Real Life section.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## What is pending from my side
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Responsiveness for the Real Life section.
