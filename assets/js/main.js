@@ -15,7 +15,7 @@ $(document).ready(function () {
   /* Slider */
   $(".os-items-bx").slick({
     dots: false,
-    infinite: false,
+    infinite: true,
     arrows: false,
     speed: 300,
     autoplay: true,
