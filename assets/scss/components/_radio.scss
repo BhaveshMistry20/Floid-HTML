@@ -1,0 +1,73 @@
+.radio-btn {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+  &:last-child {
+    margin-right: 0;
+  }
+
+  input[type="radio"] {
+    height: 24px;
+    width: 24px;
+  }
+  .custom-radio {
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 2px solid $white;
+    background-color: transparent;
+    border-radius: 50%;
+    outline: 1px solid transparent;
+    //   &:hover {
+    //     outline-color: $color-221f20;
+    //   }
+    &.c-silver {
+      background-color: $color-caccce;
+    }
+    &.c-black {
+      background-color: $black;
+      border-color: $black;
+      &:checked {
+        border-color: $white;
+      }
+    }
+    &.c-white {
+      background-color: $white;
+      border-color: $color-dedede;
+    }
+    &.c-aubergine {
+      background-color: $color-221f20;
+    }
+    &.c-link-water {
+      background-color: $color-c4c6c8;
+    }
+    &.c-mid-grey {
+      background-color: $color-676b6d;
+    }
+    &.c-evening-sea {
+      background-color: $color-285c4d;
+    }
+    &.c-dark-blue {
+      background-color: $color-02205c;
+    }
+    &:checked {
+      outline-color: $color-221f20;
+      animation: outline-checked;
+      animation-duration: 0.7s;
+      animation-iteration-count: 1;
+      animation-direction: alternate;
+      animation-timing-function: linear;
+    }
+  }
+}
+@keyframes outline-checked {
+  0% {
+    outline-offset: 0;
+  }
+  50% {
+    outline-offset: 2px;
+  }
+  100% {
+    outline-offset: -2px;
+  }
+}
